@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    -webkit-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+    -moz-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+    box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+}
+
+.nav-ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.nav-item{
+    display: grid;
+}
+
+img{
+    margin: 0 auto;
+}
+
+.Registrieren{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.login-button{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    float: right;
+    background: white;
+    border: none;
+    margin-top: 3px;
+}
+
+.login-button:hover{
+    border-bottom: 2px solid red;
+}
+
+.register-background{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+
+.input{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.register-button{
+    width:415px;
+    font-size: 25px;
+    height: 40px;
+}
+
+
